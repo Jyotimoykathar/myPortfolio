@@ -23,7 +23,7 @@ This is an portfolio webiste of mine desplaying some of my works and my current 
 ### Links
 
 - Code File URL: [github.com](https://github.com/Jyotimoykathar/myPortfolio)
-- Live Site URL: [netlify.app](https://mymedu.netlify.app/)
+- Live Site URL: [netlify.app](https://jyotimoyportfolio.netlify.app/)
 
 ## My process
 
