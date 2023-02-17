@@ -111,11 +111,11 @@ body {
 .work_button {
   display: inline-block;
   padding: 1rem 2rem;
-  border-radius: 2rem;
+  border-radius: 0.8rem;
   cursor: pointer;
   text-decoration: none;
   font-size: 1.4rem;
-  border: 1px solid #000;
+  border: 1px solid blueviolet;
 }
 
 .card {
