@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My|website</title>
+  </head>
+  <body>
+    <!-- Header Card Section -->
+    <header>
+      <nav class="nav">
+        <div class="profile_container">
+          <img
+            src="img/photo.png"
+            class="profile_image"
+            alt="my profile image"
+          />
+        </div>
+        <div class="button_container">
+          <button class="show-modal about">About</button>
+          <!-- <button class="show-modal contact">Contact</button> -->
+        </div>
+      </nav>
+    </header>
+    <!-- Main Work section And Modal Section -->
+    <main class="main_section">
+      <section>
+        <h2 class="heading-secondary">Hie! I am Jyotimoy</h2>
+        <h1 class="heading-primary">A frontend JavaScript Developer</h1>
+      </section>
+
+      <section class="work_section">
+        <div class="tertiary_container">
+          <h3 class="heading-tertiary">Some of my works</h3>
+        </div>
+        <div class="work_container">
+          <div class="work1 card">
+            <div class="work_image-container">
+              <img
+                src="img/mymedu.png"
+                alt="project work"
+                class="work_image-1"
+              />
+            </div>
+            <div class="work_button-group">
+              <a
+                href="https://github.com/Jyotimoykathar/myMedu"
+                class="work_button"
+                >Code File</a
+              >
+
+              <a href="https://mymedu.netlify.app/" class="work_button"
+                >Live Site</a
+              >
+            </div>
+          </div>
+          <div class="work1 card">
+            <div class="work_image-container">
+              <img
+                src="img/screenshotD.png"
+                alt="project work"
+                class="work_image-1"
+              />
+            </div>
+            <div class="work_button-group">
+              <button class="work_button">
+                <a href="#">source code</a>
+              </button>
+              <button class="work_button">
+                <a href="#">Live link</a>
+              </button>
+            </div>
+          </div>
+          <div class="work1 card">
+            <div class="work_image-container">
+              <img
+                src="img/screenshotD.png"
+                alt="project work"
+                class="work_image-1"
+              />
+            </div>
+            <div class="work_button-group">
+              <button class="work_button">
+                <a href="#">source code</a>
+              </button>
+              <button class="work_button">
+                <a href="#">Live link</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- About modal -->
+    <section class="about_section hidden">
+      <button class="close">&times;</button>
+      <h3 class="heading-tertiary">Meet Jyotimoy: A frontend developer</h3>
+      <p class="description">
+        As a frontend developer, I am passionate about using my skills in HTML,
+        CSS, and JavaScript to create beautiful and intuitive user interfaces. I
+        have experience working with front-end frameworks like React, Angular,
+        and Vue.js, as well as with responsive design and cross-browser
+        compatibility.
+      </p>
+      <p class="description">
+        I am committed to writing clean, well-organized code and following best
+        practices for web development, including accessibility and performance
+        optimization. I am comfortable working with APIs and integrating them
+        into my projects, and have experience with version control systems like
+        Git.
+      </p>
+
+      <p class="description">
+        I enjoy collaborating with others and am always looking for ways to
+        improve my skills and learn from my peers. I am a problem solver who
+        thrives on finding elegant solutions to complex challenges, and I am
+        dedicated to creating engaging and user-friendly experiences for all
+        users.
+      </p>
+    </section>
+    <!-- contact modal -->
+    <!-- <section class="contact_section hidden">
+      <button class="close">&times;</button>
+      <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, ex.
+        Sequi mollitia totam quisquam debitis deleniti, consequatur porro
+        voluptatibus eum officiis molestias iste voluptate earum culpa eveniet
+        ducimus esse, reprehenderit nam voluptatem itaque dolor similique nobis
+        unde quaerat quo. Debitis culpa quo numquam similique eos illum,
+        excepturi consectetur dolorum delectus?
+      </p>
+    </section> -->
+    <div class="overlay hidden"></div>
+    <!-- footer section -->
+    <footer class="footer_section">
+      <p class="text-center">
+        copyright &copy; <span class="date"></span>
+        <a href="github.com/Jyotimoykathar">Jyotimoy kathar</a>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
