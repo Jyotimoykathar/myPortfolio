@@ -9,7 +9,6 @@ This is an portfolio webiste of mine desplaying some of my works and my current 
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Time required](#time-required)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -32,11 +31,6 @@ This is an portfolio webiste of mine desplaying some of my works and my current 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox Css
-- Grid Css
-
-### Time required
-
-Nearly 7 day required to figure out the entire position of the sections in sequence and towards completion.
 
 ### Continued development
 
